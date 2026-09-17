@@ -1,4 +1,7 @@
 # train.py
+# Author: Shahzad Akbar
+# Implementation of U-Net for Medical Document Segmentation
+
 
 import os
 import argparse

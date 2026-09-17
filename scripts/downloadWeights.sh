@@ -5,11 +5,11 @@ FILE=$1
 DIR=./models/saves
 
 if [ "$FILE" == "unet_16" ]; then 
-    URL="https://huggingface.co/Lingram/DocuSegment-Pytorch/resolve/main/unet_16.pth"
+    URL="https://huggingface.co/SHAHZAD-os/Medical-Billing-AI/resolve/main/unet_16.pth"
     wget $URL -P $DIR
 
 elif [ "$FILE" == "unet_32" ]; then
-    URL="https://huggingface.co/Lingram/DocuSegment-Pytorch/resolve/main/unet_32.pth"
+    URL="https://huggingface.co/SHAHZAD-os/Medical-Billing-AI/resolve/main/unet_32.pth"
     wget $URL -P $DIR
 
 else
